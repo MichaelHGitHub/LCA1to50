@@ -15,6 +15,18 @@ struct ListNode
     ListNode(int x, ListNode* next) : val(x), next(next) {};
 };
 
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
+};
+
+template<typename T>
+void PrintData(T t);
+
 template<typename T>
 bool AreVectorEqual(vector<T> v1, vector<T> v2);
 
@@ -28,6 +40,18 @@ void PrintList(ListNode* l);
 ListNode* GenerateLinkedList(vector<int> v);
 bool IsEqualLinkedList(ListNode* l, ListNode* r);
 
+void PrintTree(TreeNode* root);
+TreeNode* GenerateTree(vector<int> v);
+bool IsSameTree(TreeNode* p, TreeNode* q);
+
+vector<TreeNode*> GenerateTrees(vector<vector<int>> v);
+
+struct TD_L_L
+{
+    ListNode* input;
+    ListNode* output;
+};
+
 struct TD_L_L_L
 {
     ListNode* input;
@@ -40,6 +64,33 @@ struct TD_L_I_L
     ListNode* input;
     int input2;
     ListNode* output;
+};
+
+struct TD_L_I_I_L
+{
+    ListNode* input;
+    int input2;
+    int input3;
+    ListNode* output;
+};
+
+struct TD_T_VI
+{
+    TreeNode* input;
+    vector<int> output;
+};
+
+struct TD_I_VT
+{
+    int input;
+    vector<TreeNode*> output;
+};
+
+struct TD_T_T_B
+{
+    TreeNode* input;
+    TreeNode* input2;
+    bool output;
 };
 
 struct TD_S_S
@@ -119,6 +170,12 @@ struct TD_I_B
     bool output;
 };
 
+struct TD_I_VI
+{
+    int input;
+    vector<int> output;
+};
+
 struct TD_I_VS
 {
     int input;
@@ -138,6 +195,13 @@ struct TD_I_I_I
     int output;
 };
 
+struct TD_I_I_VVI
+{
+    int input;
+    int input2;
+    vector<vector<int>> output;
+};
+
 struct TD_D_I_D
 {
     double input;
@@ -151,10 +215,58 @@ struct TD_VI_I
     int output;
 };
 
+struct TD_VI_B
+{
+    vector<int> input;
+    bool output;
+};
+
+struct TD_VI_I_B
+{
+    vector<int> input;
+    int input2;
+    bool output;
+};
+
 struct TD_VI_VI
 {
     vector<int> input;
     vector<int> output;
+};
+
+struct TD_VI_I_VI_I_VI
+{
+    vector<int> input;
+    int input2;
+    vector<int> input3;
+    int input4;
+    vector<int> output;
+};
+
+struct TD_VVI_I
+{
+    vector<vector<int>> input;
+    int output;
+};
+
+struct TD_VVI_I_B
+{
+    vector<vector<int>> input;
+    int input2;
+    bool output;
+};
+
+struct TD_VVI_VI
+{
+    vector<vector<int>> input;
+    vector<int> output;
+};
+
+struct TD_VVI_VI_VVI
+{
+    vector<vector<int>> input;
+    vector<int> input2;
+    vector<vector<int>> output;
 };
 
 struct TD_VI_VI_D
@@ -167,6 +279,12 @@ struct TD_VI_VI_D
 struct TD_VI_VVI
 {
     vector<int> input;
+    vector<vector<int>> output;
+};
+
+struct TD_I_VVI
+{
+    int input;
     vector<vector<int>> output;
 };
 
@@ -210,14 +328,18 @@ struct TD_VVC_B
     bool output;
 };
 
+struct TD_VVC_S_B
+{
+    vector<vector<char>> input;
+    string input2;
+    bool output;
+};
+
 struct TD_VVC_VVC
 {
     vector<vector<char>> input;
     vector<vector<char>> output;
 };
-
-template<typename T>
-void PrintData(T t);
 
 void PrintInput(TD_S_S testData);
 void CheckResults(TD_S_S testData, string result);
@@ -255,14 +377,29 @@ void CheckResults(TD_I_I testData, int result);
 void PrintInput(TD_I_I_I testData);
 void CheckResults(TD_I_I_I testData, int result);
 
+
+void PrintInput(TD_I_I_VVI testData);
+void CheckResults(TD_I_I_VVI testData, vector<vector<int>> result);
+void CheckResults_Unorder(TD_I_I_VVI testData, vector<vector<int>> result);
+
 void PrintInput(TD_D_I_D testData);
 void CheckResults(TD_D_I_D testData, double result);
+
+void PrintInput(TD_I_VI testData);
+void CheckResults(TD_I_VI testData, vector<int> result);
 
 void PrintInput(TD_I_VS testData);
 void CheckResults(TD_I_VS testData, vector<string> result);
 
 void PrintInput(TD_VI_I testData);
 void CheckResults(TD_VI_I testData, int result);
+
+void PrintInput(TD_VI_B testData);
+void CheckResults(TD_VI_B testData, bool result);
+
+void PrintInput(TD_VI_I_B testData);
+void CheckResults(TD_VI_I_B testData, bool result);
+
 
 void PrintInput(TD_VS_S testData);
 void CheckResults(TD_VS_S testData, string result);
@@ -293,20 +430,57 @@ void CheckResults_Unorder(TD_VI_I_VVI testData, vector<vector<int>> result);
 void PrintInput(TD_VVC_B testData);
 void CheckResults(TD_VVC_B testData, bool result);
 
+
+void PrintInput(TD_VVC_S_B testData);
+void CheckResults(TD_VVC_S_B testData, bool result);
+
 void PrintInput(TD_VI_VI_D testData);
 void CheckResults(TD_VI_VI_D testData, double result);
 
 void PrintInput(TD_VI_VI testData);
 void CheckResults(TD_VI_VI testData, vector<int> result);
 
+void PrintInput(TD_VI_I_VI_I_VI testData);
+void CheckResults(TD_VI_I_VI_I_VI testData, vector<int> result);
+
+void PrintInput(TD_VVI_I testData);
+void CheckResults(TD_VVI_I testData, int result);
+
+void PrintInput(TD_VVI_I_B testData);
+void CheckResults(TD_VVI_I_B testData, int result);
+
+void PrintInput(TD_VVI_VI testData);
+void CheckResults(TD_VVI_VI testData, vector<int> result);
+
+void PrintInput(TD_I_VVI testData);
+void CheckResults(TD_I_VVI testData, vector<vector<int>> result);
+
+void PrintInput(TD_VVI_VI_VVI testData);
+void CheckResults(TD_VVI_VI_VVI testData, vector<vector<int>> result);
+
 void PrintInput(TD_VVC_VVC testData);
 void CheckResults(TD_VVC_VVC testData, vector<vector<char>> result);
+
+void PrintInput(TD_L_L testData);
+void CheckResults(TD_L_L testData, ListNode* result);
+
+void PrintInput(TD_T_VI testData);
+void CheckResults(TD_T_VI testData, vector<int> result);
+
+void PrintInput(TD_I_VT testData);
+void CheckResults(TD_I_VT testData, vector<TreeNode*> result);
+
+void PrintInput(TD_T_T_B testData);
+void CheckResults(TD_T_T_B testData, bool result);
 
 void PrintInput(TD_L_L_L testData);
 void CheckResults(TD_L_L_L testData, ListNode* result);
 
 void PrintInput(TD_L_I_L testData);
 void CheckResults(TD_L_I_L testData, ListNode* result);
+
+void PrintInput(TD_L_I_I_L testData);
+void CheckResults(TD_L_I_I_L testData, ListNode* result);
 
 void PrintInput(TD_VL_L testData);
 void CheckResults(TD_VL_L testData, ListNode* result);
