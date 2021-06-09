@@ -1449,7 +1449,7 @@ void CheckResults(TD_VI_I_VI testData, vector<int> result)
     PrintData(result);
     std::cout << endl;
 
-    if (testData.output == result)
+    if (AreVectorEqual(testData.output,result))
     {
         std::cout << "Succeeded!" << endl;
     }
@@ -1457,7 +1457,7 @@ void CheckResults(TD_VI_I_VI testData, vector<int> result)
     {
         std::cout << "***Failed!***" << endl;
         std::cout << "Expect :";
-        PrintData(result);
+        PrintData(testData.output);
         std::cout << endl;
     }
 
