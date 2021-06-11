@@ -7,3 +7,4 @@
 void PrepareTestData(vector<TD_I_I>& testData);
 
 int reverseInt(int i);
+int reverse_r(int x);
