@@ -4,6 +4,31 @@ void PrepareTestData(vector<TD_S_S_B>& testData)
 {
     TD_S_S_B data;
 
+    data.input = "";
+    data.input2 = "c*c*";
+    data.output = true;
+    testData.push_back(data);
+
+    data.input = "bbab";
+    data.input2 = "b*a*";
+    data.output = false;
+    testData.push_back(data);
+
+    data.input = "abc";
+    data.input2 = "abcd*";
+    data.output = true;
+    testData.push_back(data);
+
+    data.input = "abc";
+    data.input2 = "abcd*e*";
+    data.output = true;
+    testData.push_back(data);
+
+    data.input = "abc";
+    data.input2 = "ab*cd*";
+    data.output = true;
+    testData.push_back(data);
+
     data.input = "aa";
     data.input2 = "a*";
     data.output = true;

@@ -10,7 +10,7 @@ int main(char** args, int argc)
     {
         PrintInput(test_data[i]);
 
-        bool result = isMatch3(test_data[i].input, test_data[i].input2);
+        bool result = isMatch_r(test_data[i].input, test_data[i].input2);
 
         CheckResults(test_data[i], result);
     }

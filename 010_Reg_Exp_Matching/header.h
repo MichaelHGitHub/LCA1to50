@@ -12,3 +12,5 @@ bool isMatch2(string s, string p);
 // Non-recursive, a two dimension array is needed to save result 
 // for chars at each position
 bool isMatch3(string s, string p);
+
+bool isMatch_r(string s, string p);
