@@ -10,7 +10,7 @@ int main(char** args, int argc)
     {
         PrintInput(test_data[i]);
 
-        int result = romanToInt(test_data[i].input);
+        int result = romanToInt_r(test_data[i].input);
 
         CheckResults(test_data[i], result);
     }
