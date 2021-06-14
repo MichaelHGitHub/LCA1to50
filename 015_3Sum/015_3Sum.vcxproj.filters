@@ -30,6 +30,12 @@
     <ClCompile Include="..\common\quick_sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="revisit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="revisit2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\common\common.h">

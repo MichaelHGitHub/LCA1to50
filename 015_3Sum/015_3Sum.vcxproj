@@ -142,6 +142,8 @@
     <ClCompile Include="..\common\common.cpp" />
     <ClCompile Include="..\common\quick_sort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="revisit.cpp" />
+    <ClCompile Include="revisit2.cpp" />
     <ClCompile Include="solution.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>

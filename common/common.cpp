@@ -956,7 +956,7 @@ void CheckResults(TD_VI_VVI testData, vector<vector<int>> result)
     PrintData(result);
     std::cout << endl;
 
-    if (Are2DimensionArrayEqual(testData.output, result))
+    if (Are2DimensionSetEqual(testData.output, result))
     {
         std::cout << "Succeeded!" << endl;
     }

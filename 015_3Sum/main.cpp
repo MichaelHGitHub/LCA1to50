@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        vector<vector<int>> result = threeSum(testData[i].input);
+        vector<vector<int>> result = threeSum_r2(testData[i].input);
 
         CheckResults(testData[i], result);
     }
