@@ -10,7 +10,7 @@ int main(char** args, int argc)
     {
         PrintInput(test_data[i]);
 
-        string result = longestCommonPrefix2(test_data[i].input);
+        string result = longestCommonPrefix_r(test_data[i].input);
 
         CheckResults(test_data[i], result);
     }
