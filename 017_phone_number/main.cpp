@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        vector<string> result = letterCombinations(testData[i].input);
+        vector<string> result = letterCombinations_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }

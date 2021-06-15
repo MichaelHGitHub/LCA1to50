@@ -14,3 +14,5 @@ void PrepareTestData(vector<TD_S_VS>& testData);
 //0 <= digits.length <= 4
 //digits[i] is a digit in the range['2', '9'].
 vector<string> letterCombinations(string digits);
+
+vector<string> letterCombinations_r(string digits);
