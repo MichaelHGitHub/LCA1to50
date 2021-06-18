@@ -5,3 +5,5 @@
 void PrepareTestData(vector<TD_S_B>& testData);
 
 bool isValid(string s);
+
+bool isValid_r(string s);

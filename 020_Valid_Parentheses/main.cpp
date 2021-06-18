@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        bool result = isValid(testData[i].input);
+        bool result = isValid_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }
