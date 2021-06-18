@@ -20,3 +20,4 @@
 *.log
 *.txt
 *.user
+/004_Median_of_Two_Sorted_Arrays/x64/Debug
