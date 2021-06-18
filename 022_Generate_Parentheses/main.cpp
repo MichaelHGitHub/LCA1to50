@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        vector<string> result = generateParenthesis2(testData[i].input);
+        vector<string> result = generateParenthesis_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }
