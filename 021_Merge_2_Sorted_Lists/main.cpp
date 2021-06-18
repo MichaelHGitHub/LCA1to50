@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        ListNode* result = mergeTwoLists(testData[i].input, testData[i].input2);
+        ListNode* result = mergeTwoLists_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }
