@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        ListNode* result = mergeKLists(testData[i].input);
+        ListNode* result = mergeKLists_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }

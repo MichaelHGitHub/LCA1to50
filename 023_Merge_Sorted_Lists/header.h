@@ -5,3 +5,5 @@
 void PrepareTestData(vector<TD_VL_L>& testData);
 
 ListNode* mergeKLists(vector<ListNode*>& lists);
+
+ListNode* mergeKLists_r(vector<ListNode*>& lists);
