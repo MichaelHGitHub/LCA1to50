@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        ListNode* result = swapPairs2(testData[i].input);
+        ListNode* result = swapPairs_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }

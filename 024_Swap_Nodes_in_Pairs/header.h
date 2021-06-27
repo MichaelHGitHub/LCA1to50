@@ -6,3 +6,4 @@ void PrepareTestData(vector<TD_L_L_L>& testData);
 
 ListNode* swapPairs(ListNode* head);
 ListNode* swapPairs2(ListNode* head);
+ListNode* swapPairs_r(ListNode* head);
