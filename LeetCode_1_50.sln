@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011_Container", "011_Contai
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012_int_to_roman", "012_int_to_roman\012_int_to_roman.vcxproj", "{FC4766AB-4CE7-46EC-90DB-BB2E9B521B61}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "025_Reverse_K_Nodes", "025_Reverse_K_Nodes\025_Reverse_K_Nodes.vcxproj", "{C20B7604-68C4-42CB-949F-74CBBF896FF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -471,6 +473,14 @@ Global
 		{FC4766AB-4CE7-46EC-90DB-BB2E9B521B61}.Release|x64.Build.0 = Release|x64
 		{FC4766AB-4CE7-46EC-90DB-BB2E9B521B61}.Release|x86.ActiveCfg = Release|Win32
 		{FC4766AB-4CE7-46EC-90DB-BB2E9B521B61}.Release|x86.Build.0 = Release|Win32
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Debug|x64.ActiveCfg = Debug|x64
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Debug|x64.Build.0 = Debug|x64
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Debug|x86.Build.0 = Debug|Win32
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Release|x64.ActiveCfg = Release|x64
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Release|x64.Build.0 = Release|x64
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Release|x86.ActiveCfg = Release|Win32
+		{C20B7604-68C4-42CB-949F-74CBBF896FF2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
