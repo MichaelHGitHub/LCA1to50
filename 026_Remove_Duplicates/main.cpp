@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = removeDuplicates(testData[i].input);
+        int result = removeDuplicates_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }
