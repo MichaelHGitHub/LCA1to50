@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = removeElement(testData[i].input, testData[i].input2);
+        int result = removeElement_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }
