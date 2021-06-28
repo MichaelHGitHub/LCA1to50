@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = strStr(testData[i].input, testData[i].input2);
+        int result = strStr_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }
