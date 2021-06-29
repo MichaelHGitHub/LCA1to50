@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = divide(testData[i].input, testData[i].input2);
+        int result = divide_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }

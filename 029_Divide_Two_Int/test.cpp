@@ -4,8 +4,10 @@ void PrepareTestData(vector<TD_I_I_I>& testData)
 {
     TD_I_I_I data;
 
-    
-        
+    data.input = -2147483648;
+    data.input2 = 4;
+    data.output = -536870912;
+    testData.push_back(data);
 
     data.input = -1010369383;
     data.input2 = -2147483648;
