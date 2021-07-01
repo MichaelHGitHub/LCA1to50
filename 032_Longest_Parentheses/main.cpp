@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = longestValidParentheses2(testData[i].input);
+        int result = longestValidParentheses_r2(testData[i].input);
 
         CheckResults(testData[i], result);
     }

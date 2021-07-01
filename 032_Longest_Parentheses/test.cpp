@@ -4,6 +4,19 @@ void PrepareTestData(vector<TD_S_I>& testData)
 {
     TD_S_I data;
 
+    data.input = "(()(((()";
+    data.output = 2;
+    testData.push_back(data);
+
+    data.input = "()(()((()))";
+    data.output = 8;
+    testData.push_back(data);
+
+
+    data.input = "()(()";
+    data.output = 2;
+    testData.push_back(data);
+
     // Test case 1
     data.input = "()((()))";
     data.output = 8;
