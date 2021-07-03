@@ -32,6 +32,12 @@ vector<int> searchRange_r(vector<int>& nums, int target)
         }
     }
 
+    // If target doesn't exist, no need to proceed.
+    if (lower == -1)
+    {
+        return { -1, -1 };
+    }
+
     left = 0;
     right = nums.size() - 1;
 
