@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        int result = searchInsert(testData[i].input, testData[i].input2);
+        int result = searchInsert_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }
