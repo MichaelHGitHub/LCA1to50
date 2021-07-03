@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        vector<int> result = searchRange(testData[i].input, testData[i].input2);
+        vector<int> result = searchRange_r(testData[i].input, testData[i].input2);
 
         CheckResults(testData[i], result);
     }
