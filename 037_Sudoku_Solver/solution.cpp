@@ -69,7 +69,5 @@ bool buildSudoku(vector<vector<char>>& board, int i, int j)
 
 void solveSudoku(vector<vector<char>>& board)
 {
-
     buildSudoku(board, 0, 0);
-
 }

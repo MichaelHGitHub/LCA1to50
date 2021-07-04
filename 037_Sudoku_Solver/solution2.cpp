@@ -29,7 +29,7 @@ static bool canPlace(vector<vector<char>>& board, char c, int i, int j)
 }
 
 // Fill one cell and do a complete scan to check if it is good. 
-// Not good at performance
+// Not good for performance
 static bool buildSudoku(vector<vector<char>>& board)
 {
     for (int i = 0; i < board.size(); i++)

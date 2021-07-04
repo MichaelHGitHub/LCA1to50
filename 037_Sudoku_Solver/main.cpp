@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        solveSudoku2(testData[i].input);
+        solveSudoku_r(testData[i].input);
         CheckResults(testData[i], testData[i].input);
     }
 
