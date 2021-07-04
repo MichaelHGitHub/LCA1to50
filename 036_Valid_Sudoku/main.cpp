@@ -9,7 +9,7 @@ int main(char** args, int argc)
     {
         PrintInput(testData[i]);
 
-        bool result = isValidSudoku(testData[i].input);
+        bool result = isValidSudoku_r(testData[i].input);
 
         CheckResults(testData[i], result);
     }
