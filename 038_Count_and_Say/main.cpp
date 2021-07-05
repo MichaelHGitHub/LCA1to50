@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        string result = countAndSay2(testData[i].input);
+        string result = countAndSay_r(testData[i].input);
         CheckResults(testData[i], result);
     }
 
