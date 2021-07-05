@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        vector<vector<int>> result = combinationSum(testData[i].input, testData[i].input2);
+        vector<vector<int>> result = combinationSum_r(testData[i].input, testData[i].input2);
         CheckResults_Unorder(testData[i], result);
     }
 
