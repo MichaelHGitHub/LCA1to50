@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        int result = jump2(testData[i].input);
+        int result = jump_r(testData[i].input);
         CheckResults(testData[i], result);
     }
 
