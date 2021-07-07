@@ -1,1 +1,3 @@
-﻿
+﻿  revisit.cpp
+C:\Code\GitHub\LCA1to50\018_4Sum\revisit.cpp(27,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  018_4Sum.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\018_4Sum.exe

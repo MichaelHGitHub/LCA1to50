@@ -1,1 +1,4 @@
-﻿
+﻿  revisit.cpp
+C:\Code\GitHub\LCA1to50\034_Find_Rang_in_SA\revisit.cpp(14,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\034_Find_Rang_in_SA\revisit.cpp(41,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  034_Find_Rang_in_SA.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\034_Find_Rang_in_SA.exe

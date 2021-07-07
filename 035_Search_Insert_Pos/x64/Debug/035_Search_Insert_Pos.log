@@ -1,1 +1,4 @@
-﻿
+﻿  revisit.cpp
+C:\Code\GitHub\LCA1to50\035_Search_Insert_Pos\revisit.cpp(6,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\035_Search_Insert_Pos\revisit.cpp(27,57): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  035_Search_Insert_Pos.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\035_Search_Insert_Pos.exe

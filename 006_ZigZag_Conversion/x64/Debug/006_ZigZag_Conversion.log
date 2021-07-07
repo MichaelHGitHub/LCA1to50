@@ -1,1 +1,12 @@
-﻿
+﻿  common.cpp
+C:\Code\GitHub\LCA1to50\common\common.cpp(1301,28): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+  main.cpp
+  revisit.cpp
+  solution.cpp
+  solution2.cpp
+  test.cpp
+  Generating Code...
+C:\Code\GitHub\LCA1to50\common\common.cpp(165): warning C4715: 'AreVectorEqual<TreeNode *>': not all control paths return a value
+C:\Code\GitHub\LCA1to50\common\common.cpp(127): warning C4715: 'AreVectorEqual<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >': not all control paths return a value
+C:\Code\GitHub\LCA1to50\common\common.cpp(127): warning C4715: 'AreVectorEqual<int>': not all control paths return a value
+  006_ZigZag_Conversion.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\006_ZigZag_Conversion.exe

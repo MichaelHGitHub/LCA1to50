@@ -1,1 +1,5 @@
-﻿
+﻿  revisit.cpp
+C:\Code\GitHub\LCA1to50\043_Multiply_Strings\revisit.cpp(5,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\043_Multiply_Strings\revisit.cpp(8,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\043_Multiply_Strings\revisit.cpp(10,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  043_Multiply_Strings.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\043_Multiply_Strings.exe

@@ -1,1 +1,4 @@
-﻿
+﻿  revisit2.cpp
+C:\Code\GitHub\LCA1to50\015_3Sum\revisit2.cpp(23,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\015_3Sum\revisit2.cpp(8,4): warning C4102: 'std': unreferenced label
+  015_3Sum.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\015_3Sum.exe
