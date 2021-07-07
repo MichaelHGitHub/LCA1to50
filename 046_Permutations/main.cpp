@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        vector<vector<int>> result = permute3(testData[i].input);
+        vector<vector<int>> result = permute_r(testData[i].input);
         CheckResults_Unorder(testData[i], result);
     }
 
