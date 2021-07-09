@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        vector<vector<string>> result = groupAnagrams(testData[i].input);
+        vector<vector<string>> result = groupAnagrams_r(testData[i].input);
         CheckResults_Unoder(testData[i], result);
     }
 
