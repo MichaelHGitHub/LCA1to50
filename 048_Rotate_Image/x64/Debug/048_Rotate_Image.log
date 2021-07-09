@@ -1,1 +1,4 @@
-﻿
+﻿  revisit.cpp
+C:\Code\GitHub\LCA1to50\048_Rotate_Image\revisit.cpp(5,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Code\GitHub\LCA1to50\048_Rotate_Image\revisit.cpp(6,49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  048_Rotate_Image.vcxproj -> C:\Code\GitHub\LCA1to50\x64\Debug\048_Rotate_Image.exe
