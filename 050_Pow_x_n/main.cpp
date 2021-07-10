@@ -8,7 +8,7 @@ int main(char** args, int argc)
     for (int i = 0; i < testData.size(); i++)
     {
         PrintInput(testData[i]);
-        double result = myPow2(testData[i].input, testData[i].input2);
+        double result = myPow_r(testData[i].input, testData[i].input2);
         CheckResults(testData[i], result);
     }
 
